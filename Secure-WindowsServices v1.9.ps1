@@ -4,9 +4,9 @@
 	Description: The purpose of this script is to secure any Windows services with insecure permissions and unquoted paths.
 
 .NOTES
-	Author:								Ben Hooper (https://mythofechelon.co.uk/ / https://github.com/mythofechelon/Secure-WindowsServices/)
-	Tested on:							Windows 10 v20H2 64-bit
-	Version:							1.9
+	Author:					Ben Hooper (https://mythofechelon.co.uk/ / https://github.com/mythofechelon/Secure-WindowsServices/)
+	Tested on:				Windows 10 v20H2 64-bit
+	Version:				1.9
 	Changes in v1.9 (2021/02/06 20:48):	Added fixing of services with spaces and without quotation marks, fixed bug where summary would report that Windows services couldn't be secured when they actually had been, added summary deduplication.
 	Changes in v1.8 (2020/03/06 14:08):	Added handling for Windows services where the paths don't actually exist.
 	Changes in v1.7 (2019/11/21 10:14):	Corrected "Windows service secured" logic so that it'll only report if it was actually successful in securing it.
